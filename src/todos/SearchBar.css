@@ -1,0 +1,20 @@
+
+
+.search-form-container input{
+    border-radius: 3px;
+    margin: 2px;
+}
+.search-form-container{
+    display: flex;
+    margin: 5px;
+}
+
+.new-todo-button{
+    margin: 2px;
+    border-radius: 3px;
+    border: none;
+    width: 75px;
+    background-color: rgba(20, 26, 31);
+    color:white;
+}
+

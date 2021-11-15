@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+
+
+h1{
+  font-family: 'Bebas Neue', cursive;
+  color: rgb(53, 156, 197);
+}
+
+p{
+  font-family: 'Teko', sans-serif;
+  font-size: 24px;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  border: 1px solid rgb(23, 34, 39);
+  border-radius: 0px 4px 4px 0px;
+  background-color: rgba(20, 26, 31, 0.5);
+  color: rgb(173, 171, 171);
+}
+
+input:focus {
+  border: 1px solid rgba(20, 26, 31);
+}
+
+
+span{
+  font-family: 'Teko', sans-serif;
+  font-size: 18px;
+  color:rgb(230, 56, 33);
+  font-weight: lighter;
+  font-style: italic;
+}
+.login-form-container{
+    width: 400px;
+    background-color: rgba(20, 26, 31, 0.5);
+    box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
+    margin: auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+}
+
+.login-header{
+  text-align: center;
+}
+
+.login-form{
+    display: flex;
+    justify-content: center;
+}
+
+.login-inputs{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  color: grey;
+}
+
+.input-div{
+  display: flex;
+}
+
+.icon{ 
+  background-color: rgba(20, 26, 31);
+  padding: 3px;
+  height: 100%;
+  width: 30px;
+  border-radius: 4px 0px 0px 4px;
+}
+
+.login-button{
+  color: rgb(53, 156, 197);
+  background-color: rgba(47, 59, 70, 0.5);
+  margin: 10px 0px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(53, 156, 197);
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.login-button:hover{
+  box-shadow: 0 0 2px 0 rgb(53, 156, 197) 
+}
+
+.disabled-login-button{
+  color: rgb(119, 133, 138);
+  background-color: rgba(47, 59, 70, 0.5);
+  margin: 10px 5px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(56, 65, 68);
+  border-radius: 3px;
+}
+
+
+
+/*Error handeling CSS*/
+.error{
+  display: flex;
+  border: 1px solid rgb(230, 56, 33);
+  border-radius: 4px;
+ 
+  }
+
+  @media only screen and (max-width: 600px) {
+    .login-form-container {
+     width: 300px;
+    }
+  }

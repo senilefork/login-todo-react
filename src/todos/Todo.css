@@ -1,0 +1,41 @@
+.todo-container{
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    width:350px;
+    height: 110px;
+    word-break: break-word;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.todo-text{   
+    margin: 5px;
+    height: 70px;
+}
+
+.edit-input{
+    border-radius: 0px;
+    width: 95%;
+    margin: auto;
+    background-color: rgb(166, 174, 180);
+    color: black;
+}
+
+.delete-icon, .edit-icon{
+  cursor: pointer;
+}
+
+.submit-edit-button{
+    height: 40px;
+    margin: auto;
+    width: 95%;
+}
+
+@media only screen and (max-width: 600px) {
+    .todo-container{
+        width: 250px;
+    }
+  }
+

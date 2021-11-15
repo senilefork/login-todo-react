@@ -1,0 +1,31 @@
+form{
+    width: 100%;
+    display: flex;
+}
+
+.todo-form-container input{
+    border-radius: 3px;
+    margin: 2px;
+}
+
+.todo-form-container{
+    margin: 5px;
+}
+
+.save-todo-button{
+    margin: 2px;
+    border-radius: 3px;
+    border: none;
+    width: 75px;
+    background-color: rgba(20, 26, 31);
+    color:white;
+}
+
+.save-todo-button-disabled{
+    margin: 2px;
+    border-radius: 3px;
+    border: none;
+    width: 75px;
+    background-color: rgb(50, 66, 78);
+    color:rgb(199, 199, 199);
+}

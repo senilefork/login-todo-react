@@ -1,0 +1,54 @@
+.todo-page{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-div{
+    width:100%;
+    display: flex;
+    justify-content: end;
+}
+.heading{
+    margin: 10px auto ;
+}
+
+.logout{
+    color: rgb(121, 178, 201);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+
+}
+
+.logout:hover{
+    cursor: pointer;
+}
+
+.search-todo-div{
+  width: 400px;
+}
+
+.list-div{
+    display: flex;
+    justify-content: start;
+    width:100%;
+
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .search-todo-div {
+     width: 250px;
+    }
+
+    .list-div{
+       flex-direction: column;
+    }
+  }
